@@ -11,7 +11,8 @@
 
 body {
     font-size: 1rem;
-    font-family: 'Montserrat'; /*o nome da sua fonte*/
+    font-family: 'Montserrat';
+    /*o nome da sua fonte*/
 }
 
 #contato {
@@ -20,11 +21,12 @@ body {
     padding: 4rem 0;
 }
 
-.formulario{
+.formulario {
     background-color: var(--branco);
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px;
+    rgba: (0, 0, 0, 0.1);
     font-weight: bold;
 }
 
@@ -36,4 +38,11 @@ body {
 
 .form-control {
     background-color: var(--cor2);
+}
+
+#carrosonline {
+    position: relative;
+    padding: 5rem;
+    margin-top: 3rem;
+
 }
